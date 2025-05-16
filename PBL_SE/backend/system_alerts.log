@@ -1,0 +1,19 @@
+2025-05-01 11:41:17,026 - INFO - System Alert Manager started with thresholds: CPU=80%, Memory=80%, Disk=90%
+2025-05-01 20:25:28,540 - INFO - System Alert Manager started with thresholds: CPU=80%, Memory=80%, Disk=90%
+2025-05-01 20:25:29,548 - WARNING - High Memory Usage: 87.7%
+2025-05-01 20:25:32,227 - ERROR - Error sending email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-22e0bc6d603sm7513195ad.119 - gsmtp')
+2025-05-01 20:25:33,598 - ERROR - Failed to send Slack alert: 404
+2025-05-01 20:26:34,610 - WARNING - High Memory Usage: 86.4%
+2025-05-01 20:26:37,008 - ERROR - Error sending email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7404ef18c83sm921167b3a.65 - gsmtp')
+2025-05-01 20:26:38,172 - ERROR - Failed to send Slack alert: 404
+2025-05-01 20:41:40,781 - INFO - \u2705 System-only Alert Manager started.
+2025-05-01 20:41:41,829 - INFO - Notification sent: System Alert - \u26a0\ufe0f High Memory Usage: 88.40%
+2025-05-01 20:41:45,775 - INFO - Played alert sound.
+2025-05-01 20:42:46,788 - INFO - Notification sent: System Alert - \u26a0\ufe0f High Memory Usage: 88.60%
+2025-05-01 20:42:50,468 - INFO - Played alert sound.
+2025-05-02 10:03:37,264 - INFO - \u2705 System-only Alert Manager started.
+2025-05-02 10:03:38,281 - INFO - Notification sent: System Alert - \u26a0\ufe0f High Memory Usage: 89.10%
+2025-05-02 10:03:42,125 - INFO - Played alert sound.
+2025-05-02 10:04:21,594 - INFO - \u2705 System-only Alert Manager started.
+2025-05-02 10:04:22,611 - INFO - Notification sent: System Alert - \u26a0\ufe0f High Memory Usage: 89.50%
+2025-05-02 10:04:26,342 - INFO - Played alert sound.

@@ -1,0 +1,17 @@
+2025-05-02 09:59:58,991 - INFO - \u2705 System-only Alert Manager started.
+2025-05-02 10:00:00,023 - INFO - Notification sent: System Alert - \u26a0\ufe0f High Memory Usage: 93.60%
+2025-05-02 10:00:00,058 - ERROR - Sound alert failed: 
+    Error 275 for command:
+        open "alert.mp3" alias playsound_0.9415103492286031
+    Cannot find the specified file.  Make sure the path and filename are correct.
+2025-05-02 10:01:59,277 - INFO - \u2705 System-only Alert Manager started.
+2025-05-02 10:02:00,295 - INFO - Notification sent: System Alert - \u26a0\ufe0f High Memory Usage: 89.90%
+2025-05-02 10:02:00,320 - ERROR - Sound alert failed: 
+    Error 275 for command:
+        open "alert.mp3" alias playsound_0.6684902095075416
+    Cannot find the specified file.  Make sure the path and filename are correct.
+2025-05-02 10:03:01,327 - INFO - Notification sent: System Alert - \u26a0\ufe0f High Memory Usage: 91.00%
+2025-05-02 10:03:01,346 - ERROR - Sound alert failed: 
+    Error 275 for command:
+        open "alert.mp3" alias playsound_0.806750193012045
+    Cannot find the specified file.  Make sure the path and filename are correct.
