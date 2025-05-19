@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>System Monitor Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <div class="container">
+    <h1><i class="fas fa-desktop"></i> System Monitor</h1>
+    
+    <div class="card" id="cpuCard">
+      <h2><i class="fas fa-microchip"></i> CPU Usage</h2>
+      <div class="progress-bar">
+        <div id="cpuUsageBar" class="progress-fill"></div>
+      </div>
+      <p id="cpuUsageText">Loading...</p>
+    </div>
+
+    <div class="card" id="memoryCard">
+      <h2><i class="fas fa-memory"></i> Memory Usage</h2>
+      <div class="progress-bar">
+        <div id="memoryUsageBar" class="progress-fill"></div>
+      </div>
+      <p id="memoryUsageText">Loading...</p>
+    </div>
+
+    <div class="card" id="diskCard">
+      <h2><i class="fas fa-hdd"></i> Disk Usage</h2>
+      <div class="progress-bar">
+        <div id="diskUsageBar" class="progress-fill"></div>
+      </div>
+      <p id="diskUsageText">Loading...</p>
+    </div>
+
+    <div class="card" id="networkCard">
+      <h2><i class="fas fa-network-wired"></i> Network Usage</h2>
+      <p id="networkUsageText">Loading...</p>
+    </div>
+
+    <div class="card" id="alertsCard">
+      <h2><i class="fas fa-exclamation-triangle"></i> Anomaly Alerts</h2>
+      <ul id="alertsList">
+        <li>Loading alerts...</li>
+      </ul>
+    </div>
+
+    <button id="refreshBtn"><i class="fas fa-sync-alt"></i> Refresh Now</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
